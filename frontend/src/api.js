@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api';
+const API_URL =  'https://pedidos-saas.onrender.com/api';
 
 export async function getProducts() {
   const res = await fetch(`${API_URL}/products`);
